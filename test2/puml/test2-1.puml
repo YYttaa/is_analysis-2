@@ -1,0 +1,31 @@
+@startuml
+:图书管理员:as admin
+:读者:as reader
+left to right direction
+rectangle 管理员操作{
+    (借出图书)
+    (归还图书)
+    (维护书目)
+    (维护读者信息)
+    (更改读者信息)
+}
+rectangle 读者操作{
+    (查询书目)
+    (查询借阅情况)
+    (预定图书)
+    (取消预定)
+    (反馈信息)
+}
+'left to right direction
+admin -down->(借出图书)
+admin -down->(归还图书)
+admin -down->(维护书目)
+admin -down->(维护读者信息)
+reader -up->(查询书目)
+reader -up->(查询借阅情况)
+reader -up->(预定图书)
+reader -up->(取消预定)
+reader -up->(反馈信息)
+(维护读者信息).>(更改读者信息):<<include>>
+
+@enduml
