@@ -1,20 +1,20 @@
 # 维护书目规约表 | [返回](../README.md)
-<table>
+<table >
     <tr>
         <td width="150"> <b>&nbsp;用例名称</b></td>
-        <td colspan="2" width="600">&nbsp;维护书目</td>
+        <td colspan="2" width="700">&nbsp;维护书目</td>
     </tr>
     <tr>
         <td width="150"> <b>&nbsp;参与者</b></td>
-        <td colspan="2" width="600">&nbsp;图书管理员</td>
+        <td colspan="2" width="700">&nbsp;图书管理员</td>
     </tr>
     <tr>
         <td width="150"> <b>&nbsp;前置条件</b></td>
-        <td colspan="2" width="600">&nbsp;管理员登录</td>
+        <td colspan="2" width="700">&nbsp;管理员登录</td>
     </tr>
     <tr>
         <td width="150"> <b>&nbsp;后置条件</b></td>
-        <td colspan="2" width="600">&nbsp;将修改后的图书信息更新到系统</td>
+        <td colspan="2" width="700">&nbsp;将修改后的图书信息更新到系统</td>
     </tr>
     <tr>
         <td colspan="3" width="200"> <b>&nbsp;主事件流</b></td>
@@ -43,7 +43,7 @@
             <br>
             <span>&nbsp;9.管理员确认更新，用例结束；</span>
         </td>
-        <td width="410">
+        <td width="500">
             <span>&nbsp;</span>
             <br>
             <span>&nbsp;2.系统查询登录是否被允许；</span>
