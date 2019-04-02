@@ -1,7 +1,7 @@
 # 反馈信息规约表 | [返回](../README.md)
 <table>
     <tr>
-        <td > **用例名称**</td>
+        <td ><b>用例名称</b></td>
         <td colspan="2">反馈信息</td>
     </tr>
     <tr>
