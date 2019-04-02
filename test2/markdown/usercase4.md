@@ -1,5 +1,5 @@
 # 查询借阅情况规约表 | [返回](../README.md)
-<table border="1" cellspacing="0" cellpadding="0" >
+<table>
     <tr>
         <td width="150"> <b>&nbsp;用例名称</b></td>
         <td colspan="2" width="600">&nbsp;查询借阅情况</td>
