@@ -16,7 +16,7 @@ rectangle 管理员操作{
     (归还图书)
     (维护书目)
     (维护读者信息)
-    (更改读者信息)
+    (增加书目信息)
 }
 rectangle 读者操作{
     (查询书目)
@@ -35,7 +35,7 @@ reader -up->(查询借阅情况)
 reader -up->(预定图书)
 reader -up->(取消预定)
 reader -up->(反馈信息)
-(维护读者信息).>(更改读者信息):<<include>>
+(维护书目).>(增加书目信息):<<include>>
 
 @enduml
 ```
@@ -75,13 +75,13 @@ reader -up->(反馈信息)
     
 #### 【图书管理员规约表】
         
-* **更改读者信息规约表:** 
+* **增加图书信息规约表:** 
     
-    [更改读者信息](./markdown/usercase6.md)
+    [增加图书信息](./markdown/usercase6.md)
         
-* **维护读者信息规约表:** 
+* **维护书目规约表:** 
     
-    [维护读者信息](./markdown/usercase7.md)
+    [维护书目](./markdown/usercase7.md)
         
 * **借出图书规约表:** 
     
@@ -91,6 +91,6 @@ reader -up->(反馈信息)
     
     [归还图书](./markdown/usercase9.md)
             
-* **维护书目规约表:** 
+* **维护读者信息规约表:** 
     
-    [维护书目](./markdown/usercase10.md)
+    [维护读者信息](./markdown/usercase10.md)
