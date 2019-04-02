@@ -43,7 +43,7 @@
             <br>
             <span>&nbsp;9.管理员确认更新，用例结束；</span>
         </td>
-        <td width="500">
+        <td width="480">
             <span>&nbsp;</span>
             <br>
             <span>&nbsp;2.系统查询登录是否被允许；</span>
