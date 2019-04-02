@@ -2,29 +2,29 @@
 <table>
     <tr>
         <td width="150"> <b>&nbsp;用例名称</b></td>
-        <td colspan="2" width="500">&nbsp;反馈信息</td>
+        <td colspan="2" width="600">&nbsp;反馈信息</td>
     </tr>
     <tr>
         <td width="150"> <b>&nbsp;参与者</b></td>
-        <td colspan="2" width="500">&nbsp;读者</td>
+        <td colspan="2" width="600">&nbsp;读者</td>
     </tr>
     <tr>
         <td width="150"> <b>&nbsp;前置条件</b></td>
-        <td colspan="2" width="500">&nbsp;无</td>
+        <td colspan="2" width="600">&nbsp;无</td>
     </tr>
     <tr>
         <td width="150"> <b>&nbsp;后置条件</b></td>
-        <td colspan="2" width="500">&nbsp;图书管理员处理反馈信息</td>
+        <td colspan="2" width="600">&nbsp;图书管理员处理反馈信息</td>
     </tr>
     <tr>
-        <td colspan="3" width="150"> <b>&nbsp;主事件流</b></td>
+        <td colspan="3" width="200"> <b>&nbsp;主事件流</b></td>
     </tr>
     <tr>
-        <td colspan="2" width="200"> <b>&nbsp;参与者动作</b></td>
-        <td width="400"> <b>&nbsp;系统行为</b></td>
+        <td colspan="2" width="180"> <b>&nbsp;参与者动作</b></td>
+        <td width="410"> <b>&nbsp;系统行为</b></td>
     </tr>
     <tr>
-        <td colspan="2" width="200">
+        <td colspan="2" width="180">
             <span>&nbsp;</span>
             <br>
             <span>&nbsp;2.读者选择反馈的信息种类；</span>
@@ -38,7 +38,7 @@
             <span>&nbsp;6.读者确认反馈成功，用例结束；</span>
             <br>
         </td>
-        <td width="400">
+        <td width="410">
             <span>&nbsp;1.系统显示需要反馈的信息的种类；</span>
             <br>
             <span>&nbsp;</span>
@@ -53,10 +53,10 @@
         </td>
     </tr>
     <tr>
-        <td colspan="3" width="150"> <b>&nbsp;备选时间流</b></td>
+        <td colspan="3" width="200"> <b>&nbsp;备选时间流</b></td>
     </tr>
     <tr>
-        <td colspan="3" width="150">
+        <td colspan="3" width="200">
             <span>&nbsp;3a.读者取消填写</span>
             <br>
             <span>&nbsp;&emsp;1.系统清空所有输入，回到初始界面</span>
@@ -71,10 +71,10 @@
         </td>
     </tr>
     <tr>
-        <td colspan="3" width="150"> <b>&nbsp;业务规则</b></td>
+        <td colspan="3" width="200"> <b>&nbsp;业务规则</b></td>
     </tr>
     <tr>
-        <td colspan="3" width="150">
+        <td colspan="3" width="200">
             <span>&nbsp;1.用户可以反馈多种信息，并可以看到是否反馈成功</span>
             <br>
             <span>&nbsp;2.管理员收到读者反馈的信息后进行处理</span>
