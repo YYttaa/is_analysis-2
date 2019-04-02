@@ -55,9 +55,9 @@ reader -up->(反馈信息)
 
     [反馈信息](./markdown/usercase1.md)
     
-* **取消预约规约表:** 
+* **取消约定规约表:** 
 
-    [取消预约](./markdown/usercase2.md)
+    [取消约定](./markdown/usercase2.md)
     
 * **预定图书规约表:** 
 

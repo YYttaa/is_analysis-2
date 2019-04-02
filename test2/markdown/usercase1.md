@@ -14,7 +14,7 @@
     </tr>
     <tr>
         <td width="150"> <b>&nbsp;后置条件</b></td>
-        <td colspan="2" width="500">&nbsp;无</td>
+        <td colspan="2" width="500">&nbsp;图书管理员处理反馈信息</td>
     </tr>
     <tr>
         <td colspan="3" width="150"> <b>&nbsp;主事件流</b></td>
@@ -27,19 +27,19 @@
         <td colspan="2" width="200">
             <span>&nbsp;</span>
             <br>
-            <span>&nbsp;2.读者选择反馈的信息种类</span>
+            <span>&nbsp;2.读者选择反馈的信息种类；</span>
             <br>
-            <span>&nbsp;3.填写反馈信息</span>
+            <span>&nbsp;3.填写反馈信息；</span>
             <br>
-            <span>&nbsp;4.读者确认填写完毕，提交反馈信息</span>
+            <span>&nbsp;4.读者确认填写完毕，提交反馈信息；</span>
             <br>
             <span>&nbsp;</span>
             <br>
-            <span>&nbsp;6.读者确认反馈成功，用例结束</span>
+            <span>&nbsp;6.读者确认反馈成功，用例结束；</span>
             <br>
         </td>
         <td width="400">
-            <span>&nbsp;1.系统显示需要反馈的信息的种类</span>
+            <span>&nbsp;1.系统显示需要反馈的信息的种类；</span>
             <br>
             <span>&nbsp;</span>
             <br>
@@ -47,7 +47,7 @@
             <br>
             <span>&nbsp;</span>
             <br>
-            <span>&nbsp;5.将反馈信息保存并发给管理员</span>
+            <span>&nbsp;5.将反馈信息保存并发给管理员；</span>
             <br>
             <span>&nbsp;</span>
         </td>
@@ -75,9 +75,9 @@
     </tr>
     <tr>
         <td colspan="3" width="150">
-            <span>&nbsp;1.用户可以反馈多种信息，并可以看到是否反馈成功。</span>
+            <span>&nbsp;1.用户可以反馈多种信息，并可以看到是否反馈成功</span>
             <br>
-            <span>&nbsp;2.管理员收到读者反馈的信息后进行处理。</span>
+            <span>&nbsp;2.管理员收到读者反馈的信息后进行处理</span>
         </td>
     </tr>
 </table>
