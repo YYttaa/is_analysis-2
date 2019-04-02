@@ -8,19 +8,19 @@
 <table border="1" cellspacing="0" cellpadding="0" >
     <tr>
         <td width="150"> <b>&nbsp;用例名称</b></td>
-        <td colspan="2" width="600">&nbsp;查询书目</td>
+        <td colspan="2" width="600">&nbsp;增加图书信息</td>
     </tr>
     <tr>
         <td width="150"> <b>&nbsp;参与者</b></td>
-        <td colspan="2" width="600">&nbsp;读者</td>
+        <td colspan="2" width="600">&nbsp;图书管理员</td>
     </tr>
     <tr>
         <td width="150"> <b>&nbsp;前置条件</b></td>
-        <td colspan="2" width="600">&nbsp;图书存在</td>
+        <td colspan="2" width="600">&nbsp;图书未存在</td>
     </tr>
     <tr>
         <td width="150"> <b>&nbsp;后置条件</b></td>
-        <td colspan="2" width="600">&nbsp;无</td>
+        <td colspan="2" width="600">&nbsp;将图书信息加入到可借阅表中</td>
     </tr>
     <tr>
         <td colspan="3" width="200"> <b>&nbsp;主事件流</b></td>
@@ -31,20 +31,32 @@
     </tr>
     <tr>
         <td colspan="2" width="180">
-            <span>&nbsp;1.读者选择查询方式；</span>
-            <br>
-            <span>&nbsp;2.输入查询内容</span>
+            <span>&nbsp;1.管理员登录；</span>
             <br>
             <span>&nbsp;</span>
             <br>
-            <span>&nbsp;4.读者查看书目信息，用例结束；</span>
+            <span>&nbsp;3.管理员选择增加图书功能；</span>
+            <br>
+            <span>&nbsp;</span>
+            <br>
+            <span>&nbsp;5.管理员填入图书的各项信息并提交；</span>
+            <br>
+            <span>&nbsp;</span>
+            <br>
+            <span>&nbsp;7.管理员确认增加结果，用例结束；</span>
         </td>
         <td width="410">
             <span>&nbsp;</span>
             <br>
+            <span>&nbsp;2.系统查询登录是否被允许；</span>
+            <br>
             <span>&nbsp;</span>
             <br>
-            <span>&nbsp;3.系统返回书目信息；</span>
+            <span>&nbsp;4.系统列出添加图书的各项信息；</span>
+            <br>
+            <span>&nbsp;</span>
+            <br>
+            <span>&nbsp;6.系统存储图书信息并反馈存储结果；</span>
             <br>
             <span>&nbsp;</span>
         </td>
@@ -54,9 +66,21 @@
     </tr>
     <tr>
         <td colspan="3" width="200">
-            <span>&nbsp;2a.没有查询到指定书目</span>
+            <span>&nbsp;2a.管理员密码错误</span>
             <br>
             <span>&nbsp;&emsp;1.提示查询信息，返回第1步</span>
+            <br>
+            <span>&nbsp;5a.管理员重填信息</span>
+            <br>
+            <span>&nbsp;&emsp;1.清空填入信息，返回第5步</span>
+            <br>
+            <span>&nbsp;5b.管理员取消填入信息</span>
+            <br>
+            <span>&nbsp;&emsp;1.清空填入信息，返回第3步</span>
+            <br>
+            <span>&nbsp;6a.系统存入信息出错</span>
+            <br>
+            <span>&nbsp;&emsp;1.显示错误信息，返回第3步</span>
         </td>
     </tr>
     <tr>
@@ -64,9 +88,9 @@
     </tr>
     <tr>
         <td colspan="3" width="200">
-            <span>&nbsp;1.只有图书存在时才能被查询，否则返回空白信息</span>
+            <span>&nbsp;1.只有图书未存在时才能被增加，否则返回错误信息</span>
             <br>
-            <span>&nbsp;2.读者可以通过多种方式进行查询，例如模糊查询，精准查询</span>
+            <span>&nbsp;2.读者在填写图书信息时应该选择图书的分类，并验证图书的ISBN码</span>
         </td>
     </tr>
 </table>
