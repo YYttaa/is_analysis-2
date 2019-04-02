@@ -1,26 +1,64 @@
 # 反馈信息规约表 | [返回](../README.md)
-<table>
+<table >
     <tr>
-        <td ><b>用例名称</b></td>
-        <td colspan="2">反馈信息</td>
+        <td width="150"> <b>用例名称</b></td>
+        <td colspan="2" width="500">反馈信息</td>
     </tr>
     <tr>
-        <td> 参与者</td>
-        <td colspan="2">业务经理</td>
+        <td width="150"> <b>参与者</b></td>
+        <td colspan="2" width="500">业务经理</td>
     </tr>
     <tr>
-        <td> 前置条件</td>
-        <td colspan="2">业务经理登录系统</td>
+        <td width="150"> <b>前置条件</b></td>
+        <td colspan="2" width="500">业务经理登录系统</td>
     </tr>
     <tr>
-        <td> 后置条件</td>
-        <td colspan="2">业务经理</td>
+        <td width="150"> <b>后置条件</b></td>
+        <td colspan="2" width="500">业务经理</td>
     </tr>
     <tr>
-        <td colspan="3"> 主事件流</td>
+        <td colspan="3" width="150"> <b>用例名称</b></td>
     </tr>
     <tr>
-        <td colspan="2"> 参与者动作</td>
-        <td > 系统行为</td>
+        <td colspan="2" width="200"> <b>参与者动作</b></td>
+        <td width="400"> <b>系统行为</b></td>
+    </tr>
+    <tr>
+        <td colspan="2" width="200">
+            <p></p>
+            <p>&nbsp;2.业务经理选择需要派工的客户</p>
+            <!--<p></p>-->
+            <p>&nbsp;2.业务经理选择需要派工的客户</p>
+            <p></p>
+            <p>&nbsp;2.业务经理选择需要派工的客户</p>
+        </td>
+        <td width="400">
+            <p>&nbsp;2.业务经理选择需要派工的客户</p>
+            <p></p>
+            <p>&nbsp;2.业务经理选择需要派工的客户</p>
+            <p></p>
+            <p>&nbsp;2.业务经理选择需要派工的客户</p>
+            <p></p>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="3" width="150"> <b>备选时间流</b></td>
+    </tr>
+    <tr>
+        <td colspan="3" width="150">
+            <span>2222</span>
+            <br>
+            <span>5555</span>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="3" width="150"> <b>业务规则</b></td>
+    </tr>
+    <tr>
+        <td colspan="3" width="150">
+            <span>2222</span>
+            <br>
+            <span>5555</span>
+        </td>
     </tr>
 </table>
