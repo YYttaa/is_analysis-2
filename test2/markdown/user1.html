@@ -8,7 +8,7 @@
 <table border="1" cellspacing="0" cellpadding="0" >
     <tr>
         <td width="150"> <b>&nbsp;用例名称</b></td>
-        <td colspan="2" width="600">&nbsp;查询借阅情况</td>
+        <td colspan="2" width="600">&nbsp;查询书目</td>
     </tr>
     <tr>
         <td width="150"> <b>&nbsp;参与者</b></td>
@@ -16,7 +16,7 @@
     </tr>
     <tr>
         <td width="150"> <b>&nbsp;前置条件</b></td>
-        <td colspan="2" width="600">&nbsp;读者已注册</td>
+        <td colspan="2" width="600">&nbsp;图书存在</td>
     </tr>
     <tr>
         <td width="150"> <b>&nbsp;后置条件</b></td>
@@ -31,20 +31,20 @@
     </tr>
     <tr>
         <td colspan="2" width="180">
-            <span>&nbsp;1.读者登录系统；</span>
+            <span>&nbsp;1.读者选择查询方式；</span>
+            <br>
+            <span>&nbsp;2.输入查询内容</span>
             <br>
             <span>&nbsp;</span>
             <br>
-            <span>&nbsp;</span>
-            <br>
-            <span>&nbsp;4.读者查看自己的预定情况，用例结束；</span>
+            <span>&nbsp;4.读者查看书目信息，用例结束；</span>
         </td>
         <td width="410">
             <span>&nbsp;</span>
             <br>
-            <span>&nbsp;2.系统查询登录是被允许；</span>
+            <span>&nbsp;</span>
             <br>
-            <span>&nbsp;3.系统返回读者的借阅情况；</span>
+            <span>&nbsp;3.系统返回书目信息；</span>
             <br>
             <span>&nbsp;</span>
         </td>
@@ -54,13 +54,9 @@
     </tr>
     <tr>
         <td colspan="3" width="200">
-            <span>&nbsp;2a.读者密码错误</span>
+            <span>&nbsp;2a.没有查询到指定书目</span>
             <br>
-            <span>&nbsp;&emsp;1.系统返回登录界面，转第1步</span>
-            <br>
-            <span>&nbsp;2b.读者未注册</span>
-            <br>
-            <span>&nbsp;&emsp;1.系统返回登录界面，转第1步</span>
+            <span>&nbsp;&emsp;1.提示查询信息，返回第1步</span>
         </td>
     </tr>
     <tr>
@@ -68,9 +64,9 @@
     </tr>
     <tr>
         <td colspan="3" width="200">
-            <span>&nbsp;1.读者登录只有登陆后才能观看自己的借阅信息</span>
+            <span>&nbsp;1.只有图书存在时才能被查询，否则返回空白信息</span>
             <br>
-            <span>&nbsp;2.读者不能查看别人的借阅信息</span>
+            <span>&nbsp;2.读者可以通过多种方式进行查询，例如模糊查询，精准查询</span>
         </td>
     </tr>
 </table>
