@@ -1,4 +1,4 @@
-# 增加图书信息规约表 | [返回](../README.md) | [下一张表](./usercase7.md)
+# 增加图书信息规约表 | [上一张表](./usercase5.md) | [下一张表](./usercase7.md) | [返回](../README.md) 
 <table>
     <tr>
         <td width="150"> <b>&nbsp;用例名称</b></td>

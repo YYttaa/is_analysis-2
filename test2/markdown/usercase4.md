@@ -1,4 +1,4 @@
-# 查询借阅情况规约表 | [返回](../README.md) | [下一张表](./usercase5.md)
+# 查询借阅情况规约表 | [上一张表](./usercase3.md) | [下一张表](./usercase5.md) | [返回](../README.md) 
 <table>
     <tr>
         <td width="150"> <b>&nbsp;用例名称</b></td>
