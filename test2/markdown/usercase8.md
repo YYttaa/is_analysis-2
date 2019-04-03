@@ -1,4 +1,4 @@
-# 借出图书规约表 | [返回](../README.md)
+# 借出图书规约表 | [返回](../README.md) | [下一张表](./usercase9.md)
 <table>
     <tr>
         <td width="150"> <b>&nbsp;用例名称</b></td>
