@@ -169,6 +169,8 @@ class 超级管理员{
 
 ![img](./picture/superManager.png)
 
+<br>
+
 ### 2.2 包**book**
 #### 2.1.1 类 书籍 的对象图
 * 源码如下：
