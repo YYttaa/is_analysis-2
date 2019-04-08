@@ -1,0 +1,8 @@
+@startuml
+class 超级管理员{
+     ID=101
+     姓名="李四"
+     用户名="lisi"
+     密码="123"
+  }
+@enduml
