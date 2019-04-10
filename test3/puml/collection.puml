@@ -1,6 +1,6 @@
 @startuml
 
-class 馆藏{
+object 馆藏{
     馆藏编号=101
     地点="一楼阅览室K架"
  }

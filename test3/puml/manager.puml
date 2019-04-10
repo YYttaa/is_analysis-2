@@ -1,5 +1,5 @@
 @startuml
-class 图书管理员<extends 人物>{
+object 图书管理员{
     姓名="李二"
     用户名="lier"
     密码="aaa321"

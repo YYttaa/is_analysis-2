@@ -120,7 +120,7 @@ package operation #BCEE68 {
 * 源码如下：
 ```puml
 @startuml
-class 学生<extends 人物>{
+object 学生{
     姓名="陈尘沉"
     用户名="tyh"
     密码="aaa321"
@@ -138,7 +138,7 @@ class 学生<extends 人物>{
 * 源码如下：
 ```puml
 @startuml
-class 图书管理员<extends 人物>{
+object 图书管理员{
     姓名="李二"
     用户名="lier"
     密码="aaa321"
@@ -157,7 +157,7 @@ class 图书管理员<extends 人物>{
 * 源码如下：
 ```puml
 @startuml
-class 超级管理员{
+object 超级管理员{
      ID=101
      姓名="李四"
      用户名="lisi"
@@ -176,7 +176,7 @@ class 超级管理员{
 * 源码如下：
 ```puml
 @startuml
-class 书籍{
+object 书籍{
     图书编号=20161010001
     书名="数值分析"
     作者="匿名"
@@ -198,7 +198,7 @@ class 书籍{
 * 源码如下：
 ```puml
 @startuml
-class 图书种类{
+object 图书种类{
     类别编号=1002
     类别名称="数学类"
     类别描述="数学类图书"
@@ -213,12 +213,10 @@ class 图书种类{
 * 源码如下：
 ```puml
 @startuml
-
-class 馆藏{
+object 馆藏{
     馆藏编号=101
     地点="一楼阅览室K架"
  }
-
 @enduml
 ```
 * 对象图如下：
@@ -232,8 +230,7 @@ class 馆藏{
 * 源码如下：
 ```puml
 @startuml
-
-class 借阅图书{
+object 借阅图书{
     借阅编号=10000001
     借阅人=20164112
     借阅书籍编号==20161010001
@@ -241,7 +238,6 @@ class 借阅图书{
     应还日期="2019-04-15"
     还书日期="1970-01-01"
  }
-
 @enduml
 ```
 * 对象图如下：
@@ -252,7 +248,7 @@ class 借阅图书{
 * 源码如下：
 ```puml
 @startuml
-class 预定图书{
+object 预定图书{
     预定编号=10414111
     预定人=20164112
     预定图书=20161010001
@@ -268,7 +264,7 @@ class 预定图书{
 * 源码如下：
 ```puml
 @startuml
-class 逾期记录{
+object 逾期记录{
     逾期编号=10110105
     逾期人=20164112
     逾期书籍=20161010001

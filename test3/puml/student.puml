@@ -1,5 +1,5 @@
 @startuml
-class 学生<extends 人物>{
+object 学生{
     姓名="陈尘沉"
     用户名="tyh"
     密码="aaa321"
