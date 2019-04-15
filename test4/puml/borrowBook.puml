@@ -1,0 +1,33 @@
+@startuml
+actor 图书管理员
+activate 图书管理员
+图书管理员->管理员信息:登录
+activate 管理员信息
+管理员信息->图书管理员:登录成功
+deactivate 管理员信息
+图书管理员 ->学生信息:验证学生
+activate 学生信息
+学生信息->图书管理员:验证成功
+deactivate 学生信息
+图书管理员->预定信息:查询学生预定信息
+activate 预定信息
+预定信息->图书管理员:返回学生的预定信息
+deactivate 预定信息
+图书管理员->借阅记录:确认借阅
+activate 借阅记录
+借阅记录->预定信息:修改预定信息
+activate 预定信息
+预定信息->借阅记录:修改成功
+deactivate 预定信息
+借阅记录->图书信息:确认减少可借数量
+activate 图书信息
+图书信息->借阅记录:确认成功
+deactivate 图书信息
+借阅记录->学生信息:减少可借阅数量
+activate 学生信息
+学生信息->借阅记录:修改成功
+deactivate 学生信息
+借阅记录->图书管理员:借阅成功
+deactivate 借阅记录
+deactivate 图书管理员
+@enduml

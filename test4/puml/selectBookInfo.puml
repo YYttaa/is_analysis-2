@@ -1,0 +1,9 @@
+@startuml
+actor 学生
+activate 学生
+学生->书目信息:查询书目
+activate 书目信息
+书目信息->学生:返回数据
+deactivate 书目信息
+deactivate 学生
+@enduml
