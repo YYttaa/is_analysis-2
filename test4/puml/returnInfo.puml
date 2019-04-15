@@ -1,0 +1,11 @@
+@startuml
+actor 学生
+database 反馈信息表
+actor 图书管理员
+
+activate 学生
+学生 -> 反馈信息表:填写反馈表
+反馈信息表 ->图书管理员:发送反馈表
+反馈信息表 ->学生:反馈成功
+deactivate 学生
+@enduml

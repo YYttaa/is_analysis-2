@@ -1,0 +1,19 @@
+@startuml
+actor 学生
+activate 学生
+学生->学生信息:验证登录
+activate 学生信息
+学生信息->学生:允许登录
+deactivate 学生信息
+学生->预定图书信息:查询预定信息
+activate 预定图书信息
+预定图书信息->学生:返回学生预定信息
+学生->预定图书信息:选择取消的预定
+预定图书信息->图书信息:增加图书剩余量
+activate 图书信息
+图书信息->预定图书信息:修改成功
+deactivate 图书信息
+预定图书信息->学生:取消成功
+deactivate 预定图书信息
+deactivate 学生
+@enduml

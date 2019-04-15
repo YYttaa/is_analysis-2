@@ -1,0 +1,13 @@
+@startuml
+actor 学生
+activate 学生
+学生->学生信息:登录
+activate 学生信息
+学生信息->学生:允许登录
+deactivate 学生信息
+学生->借阅信息:查询借阅信息
+activate 借阅信息
+借阅信息->学生:返回借阅信息
+deactivate 借阅信息
+deactivate 学生
+@enduml
