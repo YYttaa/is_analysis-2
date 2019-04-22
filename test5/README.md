@@ -10,7 +10,7 @@
 | :-----: | :----------: | :--------: | :------: | :----: | :--: | :------: |
 |   id    |     bigint   |    主键    |    否    |  自增  |      | 馆藏编号 |
 | address | varchar(150) |            |    否    |   ""   |      | 馆藏地点 |
-
+<br>
 
 ### 1.2图书表(book)
 |     字段     |     类型     | 主键，外键 | 可以为空 | 默认值 |    约束    |    说明    |
@@ -25,7 +25,7 @@
 | collect_num  |    bigint    |            |    否    |   0    |            |  馆藏数量  |
 | borrowed_num |    bigint    |            |    否    |   0    |            |  可借数量  |
 |  book_kind   |    bigint    |    外键    |    否    |    0   |  kind.id   |  图书类别  |
-
+<br>
 
 ### 1.3图书种类表(kind)
 |   字段    |     类型     | 主键，外键 | 可以为空 | 默认值 | 约束 |   说明   |
@@ -33,7 +33,7 @@
 |    id     |    bigint    |    主键    |    否    |  自增  |      | 类别编号 |
 | kind_name | varchar(150) |            |    否    |   ""   |      | 类别名称 |
 |  detail   | varchar(150) |            |    是    |   ""   |      | 类别描述 |
-
+<br>
 
 ### 1.4超级管理员表(admin)
 |   字段   |     类型     | 主键，外键 | 可以为空 | 默认值 | 约束 |   说明   |
@@ -42,7 +42,7 @@
 |   name   | varchar(150) |            |    否    |   ""   |      |   姓名   |
 | username | varchar(150) |            |    否    |   ""   |      |  用户名  |
 | password | varchar(30)  |            |    否    |   ""   |      |   密码   |
-
+<br>
 
 ### 1.5图书管理员表(manager)
 |   字段   |     类型     | 主键，外键 | 可以为空 | 默认值 | 约束 |     说明     |
@@ -54,7 +54,7 @@
 |  gender  |  varchar(5)  |            |    否    |   ""   |      |     性别     |
 |   job    | varchar(50)  |            |    是    |   ""   |      |     职务     |
 |   area   |    bigint    |            |    否    |   0    |      |   负责区域   |
-
+<br>
 
 ### 1.6管理区域表(manager_area)
 |    字段     |  类型  | 主键，外键 | 可以为空 | 默认值 |    约束    |     说明     |
@@ -62,7 +62,7 @@
 |     id      | bigint |    主键    |    否    |  自增  |            |  区域管理id  |
 | collect_add | bigint |    外键    |    否    |        | collect.id | 馆藏区域地址 |
 | manager_id  | bigint |    外键    |    否    |        | manager.id |   管理员id   |
-
+<br>
 
 ### 1.7学生表(student)
 |   字段   |     类型     | 主键，外键 | 可以为空 | 默认值 | 约束 |   说明   |
@@ -73,7 +73,7 @@
 | password | varchar(30)  |            |    否    |   ""   |      |   密码   |
 |  gender  |  varchar(5)  |            |    否    |   ""   |      |   性别   |
 |   kind   | varchar(50)  |            |    是    |   ""   |      |   类别   |
-
+<br>
 
 ### 1.8预定图书表(order)
 |    字段    |   类型   | 主键，外键 | 可以为空 | 默认值 |     约束     |   说明   |
@@ -82,7 +82,7 @@
 | order_name |  bigint  |    外键    |    否    |        |  student.id  | 预定学生 |
 |  book_id   |  bigint  |    外键    |    否    |        | book.book_id | 预定图书 |
 | order_date | datetime |            |    否    |        |              | 预定时间 |
-
+<br>
 
 ### 1.9借阅图书表(borrow)
 |    字段     |   类型   | 主键，外键 | 可以为空 | 默认值 |     约束     |     说明     |
@@ -93,7 +93,7 @@
 | borrow_date | datetime |            |    否    |        |              |   借阅时间   |
 | return_date | datetime |            |    否    |        |              |   应还时间   |
 | revert_date | datetime |            |    是    |        |              | 实际归还时间 |
-
+<br>
 
 ### 1.10逾期记录表(overdue)
 |     字段     |   类型   | 主键，外键 | 可以为空 | 默认值 |     约束     |     说明     |
