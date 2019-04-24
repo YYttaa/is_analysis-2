@@ -120,6 +120,8 @@
 [学生类](../test3/picture/libraryManager.png)，
 [图书管理员类](../test3/picture/libraryManager.png)
 
+<br>
+
 ### 2.2API接口
 #### 2.2.1查询学生预定信息
 * 功能：用于查询学生的预定图书信息
