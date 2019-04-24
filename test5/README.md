@@ -115,7 +115,10 @@
 ![img](./picture/pic3.png)
 * 用例图参见：[借阅图书用例](../test2/markdown/usercase8.md)
 * 用例流程参见：[借阅图书流程](../test4/picture/borrowBook.png)
-* 类图参见：借阅图书类，预定图书类，学生类，管理员类
+* 类图参见：[借阅图书类](../test3/picture/libraryManager.png)，
+[预定图书类](../test3/picture/libraryManager.png)，
+[学生类](../test3/picture/libraryManager.png)，
+[图书管理员类](../test3/picture/libraryManager.png)
 
 ### 2.2API接口
 #### 2.2.1查询学生预定信息
