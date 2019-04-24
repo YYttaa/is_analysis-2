@@ -127,7 +127,7 @@
 | access_token |  是  | 用于验证请求合法性的认证信息。 |
 |  student_id  |  是  |    用于查询学生的预定信息。    |
 |    method    |  是  |         固定为 “GET”。         |
-* 返回实例：
+* 请求实例：
 https://tyh97.github.io/is_analysis_pages/v1/api/select_stu_orderInfo?access_token=15478562&student_id=201610414112&method=GET
 * 返回参数说明：
 
@@ -136,7 +136,7 @@ https://tyh97.github.io/is_analysis_pages/v1/api/select_stu_orderInfo?access_tok
 |  result  | 返回学生预定信息是否存在。 |
 |   data   |       学生预定信息。       |
 |   code   |        查询状态码。        |
-* 请求实例：
+* 返回实例：
 ```json
 {
   "result": "success",
@@ -147,6 +147,55 @@ https://tyh97.github.io/is_analysis_pages/v1/api/select_stu_orderInfo?access_tok
     "book_name": "信息系统分析与设计（第四版）",
     "ISBN": "978-7-302-32982-4",
     "order_date": "2019-01-02 15:31:42"
+  },
+  "code": "200"
+}
+```
+#### 2.2.1生成图书借阅清单
+* 功能：管理员确认借阅，并生成图书借阅清单
+* 地址：https://tyh97.github.io/is_analysis_pages/v1/api/confirm_borrow
+* 请求方式：PATCH
+* 请求参数说明：
+
+|   参数名称   | 必填 |              说明              |
+| :----------: | :--: | :----------------------------: |
+| access_token |  是  | 用于验证请求合法性的认证信息。 |
+|  student_id  |  是  |   用于确认借阅图书的学生编号   |
+|   order_id   |  是  |   用于确认借阅图书的预定编号   |
+|  manager_id  |  是  |  用于确认借阅图书的管理员编号  |
+|    method    |  是  |        固定为 “PATCH”。        |
+
+* 请求实例：
+```json
+{
+  "access_token": "15478562",
+  "student_id":"201610414112",
+  "order_id": "20190102001",
+  "manager_id": "201421453211",
+  "method": "PATCH"
+}
+```
+* 返回参数说明：
+
+| 参数名称 |        说明        |
+| :------: | :----------------: |
+|  result  | 返回学生借阅结果。 |
+|   data   |   图书借阅清单。   |
+|   code   |    操作状态码。    |
+
+* 返回实例：
+```json
+{
+  "result": "success",
+  "data": {
+    "borrow_id": "20190103012",
+    "student": "陈尘沉",
+    "stu_id": "201610414112",
+    "book_name": "信息系统分析与设计（第四版）",
+    "ISBN": "978-7-302-32982-4",
+    "borrow_date": "2019-01-02 15:31:42",
+    "return_date": "2019-02-03 10:44:15",
+    "manager": "唐涣"
   },
   "code": "200"
 }
