@@ -127,7 +127,6 @@
 | access_token |  是  | 用于验证请求合法性的认证信息。 |
 |  student_id  |  是  |    用于查询学生的预定信息。    |
 |    method    |  是  |         固定为 “GET”。         |
-* 请求实例：
 * 返回实例：
 https://tyh97.github.io/is_analysis_pages/v1/api/select_stu_orderInfo?access_token=15478562&student_id=201610414112&method=GET
 * 返回参数说明：
@@ -137,6 +136,7 @@ https://tyh97.github.io/is_analysis_pages/v1/api/select_stu_orderInfo?access_tok
 |  result  | 返回学生预定信息是否存在。 |
 |   data   |       学生预定信息。       |
 |   code   |        查询状态码。        |
+* 请求实例：
 ```json
 {
   "result": "success",
