@@ -16,7 +16,13 @@
 
 ## 2.系统总体结构
 ![img](./picture/系统总体结构.png)
-## 3.用例设计图
+
+<br>
+
+## 3.用例设计图 [源码](./puml/SystemCase.puml)
+![img](./picture/SystemCase.png)
+
+<br>
 
 ## 4.类设计图
 
