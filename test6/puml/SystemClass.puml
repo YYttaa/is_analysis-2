@@ -52,5 +52,12 @@ class score_rules{
     rules_detail （评分细则描述）
     rules_percent （评分占比）
 }
+users <|-down- students
+users <|-right- teachers
+users <|-left- manager
+students "*"--"1"class
+teachers "1"--"*" course
+course "1" --"*"tests
+
 
 @enduml
