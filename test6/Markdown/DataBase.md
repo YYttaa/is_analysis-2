@@ -51,9 +51,50 @@
 
 * ## course(课程表)
 
-|    字段     |     类型     | 主键，外键 | 可以为空 | 默认值 |        约束         |   说明   |
-| :---------: | :----------: | :--------: | :------: | :----: | :-----------------: | :------: |
-|  course_id  |    bigint    |    主键    |    否    |  自增  |                     | 课程编号 |
-| course_name | varchar(100) |            |    否    |        |                     | 课程名称 |
-| course_name | varchar(255) |            |    否    |        |                     | 课程描述 |
-| teacher_id  |    bigint    |    外键    |    否    |        | teachers.teacher_id | 教师编号 |
+|     字段      |     类型     | 主键，外键 | 可以为空 | 默认值 |        约束         |   说明   |
+| :-----------: | :----------: | :--------: | :------: | :----: | :-----------------: | :------: |
+|   course_id   |    bigint    |    主键    |    否    |  自增  |                     | 课程编号 |
+|  course_name  | varchar(100) |            |    否    |        |                     | 课程名称 |
+| course_detail | varchar(255) |            |    否    |        |                     | 课程描述 |
+|  teacher_id   |    bigint    |    外键    |    否    |        | teachers.teacher_id | 教师编号 |
+
+* ## tests(实验表)
+
+|     字段     |     类型     | 主键，外键 | 可以为空 | 默认值 |       约束       |   说明   |
+| :----------: | :----------: | :--------: | :------: | :----: | :--------------: | :------: |
+|   tests_id   |    bigint    |    主键    |    否    |  自增  |                  | 实验编号 |
+|  tests_name  | varchar(100) |            |    否    |        |                  | 实验名称 |
+| tests_detail | varchar(255) |            |    否    |        |                  | 实验描述 |
+|  course_id   |    bigint    |    外键    |    否    |        | course.course_id | 课程编号 |
+
+* ## score_rules(评分细则表)
+
+|     字段      |     类型     | 主键，外键 | 可以为空 | 默认值 |     约束      |                  说明                  |
+| :-----------: | :----------: | :--------: | :------: | :----: | :-----------: | :------------------------------------: |
+|   rules_id    |    bigint    |    主键    |    否    |  自增  |               |                细则编号                |
+| rules_percent |    float     |            |    否    |        |               | 细则分数占比<br />最大值为1，最小值为0 |
+| rules_detail  | varchar(255) |            |    否    |        |               |                细则描述                |
+|    test_id    |    bigint    |    外键    |    否    |        | test.tests_id |                实验编号                |
+
+* ## select_course(学生选课表)
+
+|    字段    |     类型     | 主键，外键 | 可以为空 | 默认值 |        约束         |   说明   |
+| :--------: | :----------: | :--------: | :------: | :----: | :-----------------: | :------: |
+| select_id  |    bigint    |    主键    |    否    |  自增  |                     | 选课编号 |
+| student_id |    bigint    |    外键    |    否    |        | students.student_id | 学生编号 |
+| course_id  |    bigint    |    外键    |    否    |        |  course.course_id   | 课程编号 |
+| all_score  |    float     |            |    是    |   0    |                     |  总分数  |
+|    memo    | varchar(255) |            |    是    |        |                     |   评语   |
+
+* ## test_score(实验评分表)
+
+|   字段    |  类型  | 主键，外键 | 可以为空 | 默认值 |          约束           |     说明     |
+| :-------: | :----: | :--------: | :------: | :----: | :---------------------: | :----------: |
+| score_id  | bigint |    主键    |    否    |  自增  |                         |   分数编号   |
+| select_id | bigint |    外键    |    否    |        | select_course.select_id |   选课编号   |
+|  test_id  | bigint |    外键    |    否    |        |      tests.test_id      |   实验编号   |
+| rules_id  | bigint |    外键    |    否    |        |  score_rules.rules_id   | 评分细则编号 |
+|  result   | float  |            |    否    |        |                         |     分数     |
+
+
+
