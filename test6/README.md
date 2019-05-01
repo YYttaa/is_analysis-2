@@ -27,7 +27,10 @@
 ## 4.类设计图 [源码](./puml/SystemClass.puml)
 ![img](./picture/SystemClass.png)
 
+<br>
 
 ## 5.数据库设计
+
+[参见数据库设计](./Markdown/DataBase.md)
 
 ## 6.用例及界面详细设计
