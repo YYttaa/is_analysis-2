@@ -52,6 +52,10 @@ class score_rules{
     rules_detail （评分细则描述）
     rules_percent （评分占比）
 }
+
+class select_course{
+
+}
 users <|-down- students
 users <|-right- teachers
 users <|-left- manager
