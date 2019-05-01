@@ -65,6 +65,7 @@ class test_score{
     <b>score_id</b>（分数id）
     select_id（选课id）
     test_id（实验id）
+    rules_id（评分细则id）
     result（分数）
 }
 users <|-down- students
@@ -73,6 +74,9 @@ users <|-left- manager
 students "*"--"1"class
 teachers "1"--"*" course
 course "1" --"*"tests
-
+tests "1"--"*"score_rules
+students "1"--"*" select_course
+course "1"--"*" select_course
+select_course "1"--"*" test_score
 
 @enduml
