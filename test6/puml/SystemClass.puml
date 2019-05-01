@@ -54,7 +54,18 @@ class score_rules{
 }
 
 class select_course{
+    <b>select_id</b> （选课id）
+    student_id （学生id）
+    course_id（课程id）
+    all_score（课程总分数）
+    memo（评语）
+}
 
+class test_score{
+    <b>score_id</b>（分数id）
+    select_id（选课id）
+    test_id（实验id）
+    result（分数）
 }
 users <|-down- students
 users <|-right- teachers
