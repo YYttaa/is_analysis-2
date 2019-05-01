@@ -1,18 +1,17 @@
 # 数据库设计 [首页](../README.md)
 * ## students表(学生表)
 
-|      字段       |    类型     | 主键，外键 | 可以为空 | 默认值 | 约束 |          说明          |
-| :-------------: | :---------: | :--------: | :------: | :----: | :--: | :--------------------: |
-|     user_id     |   bigint    | 联合主键1  |    否    |  自增  |      |        用户编号        |
-|   student_id    |   bigint    | 联合主键2  |    否    |        |      |          学号          |
-|    class_id     |   bigint    |            |    否    |        |      |         班级号         |
-|      name       | varchar(50) |            |    否    |        |      |          姓名          |
-| github_username | varchar(80) |            |    否    |        |      |     用户GitHub账号     |
-|   update_date   |  datetime   |            |    否    |        |      | 用户GitHub账号修改日期 |
-|    password     | varchar(50) |            |    否    |        |      |          密码          |
-|     disable     | varchar(20) |            |    否    |        |      |      用户是否禁用      |
-|     web_sum     | varchar(20) |            |    否    |        |      |    网站正确与否汇总    |
-
+|      字段       |    类型     | 主键，外键 | 可以为空 | 默认值 |      约束      |          说明          |
+| :-------------: | :---------: | :--------: | :------: | :----: | :------------: | :--------------------: |
+|     user_id     |   bigint    | 联合主键1  |    否    |  自增  |                |        用户编号        |
+|   student_id    |   bigint    | 联合主键2  |    否    |        |                |          学号          |
+|    class_id     |   bigint    |    外键    |    否    |        | class.class_id |         班级号         |
+|      name       | varchar(50) |            |    否    |        |                |          姓名          |
+| github_username | varchar(80) |            |    否    |        |                |     用户GitHub账号     |
+|   update_date   |  datetime   |            |    否    |        |                | 用户GitHub账号修改日期 |
+|    password     | varchar(50) |            |    否    |        |                |          密码          |
+|     disable     | varchar(20) |            |    否    |        |                |      用户是否禁用      |
+|     web_sum     | varchar(20) |            |    否    |        |                |    网站正确与否汇总    |
 * ## teachers表(教师表)
 
 |      字段       |    类型     | 主键，外键 | 可以为空 | 默认值 | 约束 |          说明          |
@@ -39,3 +38,22 @@
 |    password     | varchar(50) |            |    否    |        |      |          密码          |
 |     disable     | varchar(20) |            |    否    |        |      |      用户是否禁用      |
 |     web_sum     | varchar(20) |            |    否    |        |      |    网站正确与否汇总    |
+
+* ## class表(班级表)
+
+|   字段    |    类型     | 主键，外键 | 可以为空 | 默认值 | 约束 |   说明   |
+| :-------: | :---------: | :--------: | :------: | :----: | :--: | :------: |
+| class_id  |   bigint    |    主键    |    否    |  自增  |      | 班级编号 |
+|  college  | varchar(50) |            |    否    |        |      | 所属学院 |
+|  subject  | varchar(50) |            |    否    |        |      |   专业   |
+|   grade   |     int     |            |    否    |        |      |   年级   |
+| class_num |     int     |            |    否    |        |      |  班级号  |
+
+* ## course(课程表)
+
+|    字段     |     类型     | 主键，外键 | 可以为空 | 默认值 |        约束         |   说明   |
+| :---------: | :----------: | :--------: | :------: | :----: | :-----------------: | :------: |
+|  course_id  |    bigint    |    主键    |    否    |  自增  |                     | 课程编号 |
+| course_name | varchar(100) |            |    否    |        |                     | 课程名称 |
+| course_name | varchar(255) |            |    否    |        |                     | 课程描述 |
+| teacher_id  |    bigint    |    外键    |    否    |        | teachers.teacher_id | 教师编号 |
