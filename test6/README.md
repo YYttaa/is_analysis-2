@@ -25,7 +25,7 @@
 <br>
 
 ## 4.类设计图 [源码](./puml/SystemClass.puml)
-[img](./picture/SystemClass.png)
+![img](./picture/SystemClass.png)
 
 
 ## 5.数据库设计
