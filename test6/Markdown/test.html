@@ -8,7 +8,7 @@
 <table border="1" cellspacing="0" cellpadding="0" >
     <tr>
         <td width="150"> <b>&nbsp;用例名称</b></td>
-        <td colspan="2" width="700">&nbsp;登录</td>
+        <td colspan="2" width="700">&nbsp;查看用户信息</td>
     </tr>
     <tr>
         <td width="150"> <b>&nbsp;参与者</b></td>
@@ -16,11 +16,11 @@
     </tr>
     <tr>
         <td width="150"> <b>&nbsp;前置条件</b></td>
-        <td colspan="2" width="700">&nbsp;无</td>
+        <td colspan="2" width="700">&nbsp;已在系统登录</td>
     </tr>
     <tr>
         <td width="150"> <b>&nbsp;后置条件</b></td>
-        <td colspan="2" width="700">&nbsp;进入系统</td>
+        <td colspan="2" width="700">&nbsp;无</td>
     </tr>
     <tr>
         <td colspan="3" width="200"> <b>&nbsp;主事件流</b></td>
@@ -31,11 +31,11 @@
     </tr>
     <tr>
         <td colspan="2" width="180">
-            <span>&nbsp;1.用户发起登录；</span>
+            <span>&nbsp;1.用户选择查看用户信息；</span>
             <br>
             <span>&nbsp;</span>
             <br>
-            <span>&nbsp;3.用户进入系统；</span>
+            <span>&nbsp;3.用户确认查看信息；</span>
             <br>
             <span>&nbsp;</span>
             <br>
@@ -52,7 +52,7 @@
         <td width="480">
             <span>&nbsp;</span>
             <br>
-            <span>&nbsp;2.系统查询信息是否合法；</span>
+            <span>&nbsp;2.系统查询当前用户信息并返回至页面；</span>
             <br>
             <span>&nbsp;</span>
             <br>
@@ -74,13 +74,9 @@
     </tr>
     <tr>
         <td colspan="3" width="200">
-            <span>&nbsp;2a.用户密码错误</span>
+            <span>&nbsp;2a.用户信息查询失败</span>
             <br>
-            <span>&nbsp;&emsp;1.提示查询信息，返回第1步</span>
-            <br>
-            <span>&nbsp;2b.当前角色无此用户</span>
-            <br>
-            <span>&nbsp;&emsp;1.提示查询信息，返回第1步</span>
+            <span>&nbsp;&emsp;1.提示用户查询结果，返回第1步</span>
         </td>
     </tr>
     <tr>
@@ -88,9 +84,9 @@
     </tr>
     <tr>
         <td colspan="3" width="200">
-            <span>&nbsp;1.用户在进行登录时选择登录的角色。</span>
+            <span>&nbsp;1.用户在进行登录后选才能进行查看当前用户的信息。</span>
             <br>
-            <span>&nbsp;2.只有用户登录成功后才能被进入系统。</span>
+            <span>&nbsp;2.用户的隐秘信息应当使用*来进行保护。</span>
         </td>
     </tr>
 </table>
