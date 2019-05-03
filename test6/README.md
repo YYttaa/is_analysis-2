@@ -34,18 +34,18 @@
 * [参见数据库设计](./Markdown/DataBase.md)
 
 ## 6.用例及界面详细设计
-* ["登录"用例](./puml/SystemClass.puml)，[界面](./puml/SystemClass.puml)
-* ["登出"用例](./puml/SystemClass.puml)，[界面](./puml/SystemClass.puml)
-* ["查看用户信息"用例](./puml/SystemClass.puml)，[界面](./puml/SystemClass.puml)
-* ["修改用户信息"用例](./puml/SystemClass.puml)，[界面](./puml/SystemClass.puml)
-* ["修改密码"用例](./puml/SystemClass.puml)，[界面](./puml/SystemClass.puml)
-* ["用户列表"用例](./puml/SystemClass.puml)，[界面](./puml/SystemClass.puml)
-* ["学生课表"用例](./puml/SystemClass.puml)，[界面](./puml/SystemClass.puml)
-* ["添加课程"用例](./puml/SystemClass.puml)，[界面](./puml/SystemClass.puml)
-* ["设定实验"用例](./puml/SystemClass.puml)，[界面](./puml/SystemClass.puml)
-* ["选择课程"用例](./puml/SystemClass.puml)，[界面](./puml/SystemClass.puml)
-* ["评定成绩"用例](./puml/SystemClass.puml)，[界面](./puml/SystemClass.puml)
-* ["查看成绩"用例](./puml/SystemClass.puml)，[界面](./puml/SystemClass.puml)
+* ["登录"用例](./Markdown/Login.md)，[界面](./puml/SystemClass.puml)
+* ["登出"用例](./Markdown/Login.md)，[界面](./puml/SystemClass.puml)
+* ["查看用户信息"用例](./Markdown/Login.md)，[界面](./puml/SystemClass.puml)
+* ["修改用户信息"用例](./Markdown/Login.md)，[界面](./puml/SystemClass.puml)
+* ["修改密码"用例](./Markdown/Login.md)，[界面](./puml/SystemClass.puml)
+* ["用户列表"用例](./Markdown/Login.md)，[界面](./puml/SystemClass.puml)
+* ["学生列表"用例](./Markdown/Login.md)，[界面](./puml/SystemClass.puml)
+* ["添加课程"用例](./Markdown/Login.md)，[界面](./puml/SystemClass.puml)
+* ["设定实验"用例](./Markdown/Login.md)，[界面](./puml/SystemClass.puml)
+* ["选择课程"用例](./Markdown/Login.md)，[界面](./puml/SystemClass.puml)
+* ["评定成绩"用例](./Markdown/Login.md)，[界面](./puml/SystemClass.puml)
+* ["查看成绩"用例](./Markdown/Login.md)，[界面](./puml/SystemClass.puml)
 
 
 
