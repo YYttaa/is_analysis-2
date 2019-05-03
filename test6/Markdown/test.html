@@ -8,11 +8,11 @@
 <table border="1" cellspacing="0" cellpadding="0" >
     <tr>
         <td width="150"> <b>&nbsp;用例名称</b></td>
-        <td colspan="2" width="700">&nbsp;查看用户信息</td>
+        <td colspan="2" width="700">&nbsp;用户列表</td>
     </tr>
     <tr>
         <td width="150"> <b>&nbsp;参与者</b></td>
-        <td colspan="2" width="700">&nbsp;所有用户</td>
+        <td colspan="2" width="700">&nbsp;管理员</td>
     </tr>
     <tr>
         <td width="150"> <b>&nbsp;前置条件</b></td>
@@ -31,40 +31,20 @@
     </tr>
     <tr>
         <td colspan="2" width="180">
-            <span>&nbsp;1.用户选择查看用户信息；</span>
+            <span>&nbsp;1.管理员发起查看所有用户信息请求；</span>
+            <br>
+            <span>&nbsp;2.管理员选择需要查看的角色种类；</span>
             <br>
             <span>&nbsp;</span>
             <br>
-            <span>&nbsp;3.用户确认查看信息；</span>
-            <br>
-            <span>&nbsp;</span>
-            <br>
-            <span>&nbsp;5.管理员选择对读者信息的具体维护功能；</span>
-            <br>
-            <span>&nbsp;</span>
-            <br>
-            <span>&nbsp;7.管理员对读者信息进行操作，并提交；</span>
-            <br>
-            <span>&nbsp;</span>
-            <br>
-            <span>&nbsp;9.管理员确认更新，用例结束；</span>
+            <span>&nbsp;4.管理员确认查看信息，用例结束；</span>
         </td>
         <td width="480">
             <span>&nbsp;</span>
             <br>
-            <span>&nbsp;2.系统查询当前用户信息并返回至页面；</span>
-            <br>
             <span>&nbsp;</span>
             <br>
-            <span>&nbsp;4.系统列出各项对读者的维护功能；</span>
-            <br>
-            <span>&nbsp;</span>
-            <br>
-            <span>&nbsp;6.系统根据所选择的功能显示功能界面；</span>
-            <br>
-            <span>&nbsp;</span>
-            <br>
-            <span>&nbsp;8.系统将更改的读者信息进行更新，并反馈更新结果；</span>
+            <span>&nbsp;3.系统按分类返回所选择的角色的所有用户信息；</span>
             <br>
             <span>&nbsp;</span>
         </td>
@@ -74,9 +54,9 @@
     </tr>
     <tr>
         <td colspan="3" width="200">
-            <span>&nbsp;2a.用户信息查询失败</span>
+            <span>&nbsp;3a.所选择的种类无用户信息</span>
             <br>
-            <span>&nbsp;&emsp;1.提示用户查询结果，返回第1步</span>
+            <span>&nbsp;&emsp;1.提示管理员无用户信息，返回第2步</span>
         </td>
     </tr>
     <tr>
@@ -84,9 +64,9 @@
     </tr>
     <tr>
         <td colspan="3" width="200">
-            <span>&nbsp;1.用户在进行登录后选才能进行查看当前用户的信息。</span>
+            <span>&nbsp;1.系统按照班级或者职位等分类返回学生或教师的信息。</span>
             <br>
-            <span>&nbsp;2.用户的隐秘信息应当使用*来进行保护。</span>
+            <span>&nbsp;2.系统必须提供搜索用户的功能，并能够选择多种方式进行搜索。</span>
         </td>
     </tr>
 </table>
