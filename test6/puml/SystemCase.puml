@@ -28,6 +28,7 @@ rectangle 业务用例集{
     (查看成绩)
     (学生列表)
     (用户列表)
+    (维护用户数据)
 }
 teacher-->(添加课程)
 teacher-->(设定实验)
@@ -37,4 +38,5 @@ student-->(选择课程)
 student-->(查看成绩)
 student-->(学生列表)
 admin-->(用户列表)
+admin-->(维护用户数据)
 @enduml

@@ -40,6 +40,7 @@
 * ["修改用户信息"用例](./Markdown/ModifyUserInfo.md)，[界面](./puml/SystemClass.puml)
 * ["修改密码"用例](./Markdown/ModifyPassword.md)，[界面](./puml/SystemClass.puml)
 * ["用户列表"用例](./Markdown/AllUserList.md)，[界面](./puml/SystemClass.puml)
+* ["维护用户数据"用例](./Markdown/MaintainUserInfo.md)，[界面](./puml/SystemClass.puml)
 * ["学生列表"用例](./Markdown/AllStudentList.md)，[界面](./puml/SystemClass.puml)
 * ["添加课程"用例](./Markdown/AddCourse.md)，[界面](./puml/SystemClass.puml)
 * ["设定实验"用例](./Markdown/AddTests.md)，[界面](./puml/SystemClass.puml)
