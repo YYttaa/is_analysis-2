@@ -8,11 +8,11 @@
 <table border="1" cellspacing="0" cellpadding="0" >
     <tr>
         <td width="150"> <b>&nbsp;用例名称</b></td>
-        <td colspan="2" width="700">&nbsp;维护用户数据</td>
+        <td colspan="2" width="700">&nbsp;学生列表</td>
     </tr>
     <tr>
         <td width="150"> <b>&nbsp;参与者</b></td>
-        <td colspan="2" width="700">&nbsp;管理员</td>
+        <td colspan="2" width="700">&nbsp;学生及教师</td>
     </tr>
     <tr>
         <td width="150"> <b>&nbsp;前置条件</b></td>
@@ -31,24 +31,16 @@
     </tr>
     <tr>
         <td colspan="2" width="180">
-            <span>&nbsp;1.管理员选择添加用户；</span>
+            <span>&nbsp;1.用户选择查看学生信息；</span>
             <br>
             <span>&nbsp;</span>
             <br>
-            <span>&nbsp;3.管理员选择添加类型并开始添加信息；</span>
-            <br>
-            <span>&nbsp;</span>
-            <br>
-            <span>&nbsp;5.管理员确认添加成功，用例结束；</span>
+            <span>&nbsp;3.用户确认查看学生信息，用例结束；</span>
         </td>
         <td width="480">
             <span>&nbsp;</span>
             <br>
-            <span>&nbsp;2.系统返回可添加的信息的类型；</span>
-            <br>
-            <span>&nbsp;</span>
-            <br>
-            <span>&nbsp;4.系统接受信息并加入到数据库，并反馈添加结果；</span>
+            <span>&nbsp;2.系统获取当前用户信息并返回学生信息；</span>
             <br>
             <span>&nbsp;</span>
         </td>
@@ -58,17 +50,17 @@
     </tr>
     <tr>
         <td colspan="3" width="200">
-            <span>&nbsp;3a.管理员选择手动添加信息</span>
+            <span>&nbsp;2a.用户为学生</span>
             <br>
-            <span>&nbsp;&emsp;1.系统显示手动添加信息界面</span>
+            <span>&nbsp;&emsp;1.系统返回当前学生所在班级的学生信息</span>
             <br>
-            <span>&nbsp;3b.管理员选择通过文件导入信息</span>
+            <span>&nbsp;2b.用户为教师</span>
             <br>
-            <span>&nbsp;&emsp;1.系统显示文件导入界面</span>
+            <span>&nbsp;&emsp;1.系统返回教师所教授班级的学生信息</span>
             <br>
-            <span>&nbsp;4a.系统添加信息失败</span>
+            <span>&nbsp;2c.当前用户的信息缺失</span>
             <br>
-            <span>&nbsp;&emsp;1.显示错误信息，返回第2步</span>
+            <span>&nbsp;&emsp;1.提示用户信息缺失并提示用户添加用户信息</span>
         </td>
     </tr>
     <tr>
@@ -76,11 +68,7 @@
     </tr>
     <tr>
         <td colspan="3" width="200">
-            <span>&nbsp;1.管理员选择添加用户信息时，系统应该提供手动添加和文件导入两种类型方式。</span>
-            <br>
-            <span>&nbsp;2.管理员选择文件导入信息时，系统应该提供多种文件类型供导入。</span>
-            <br>
-            <span>&nbsp;3.导入失败时数据库应该进行事物回滚，并提示管理员错误信息。</span>
+            <span>&nbsp;1.系统显示学生信息时必须按照当前用户类型进行分类显示。</span>
         </td>
     </tr>
 </table>
