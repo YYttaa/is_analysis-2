@@ -8,11 +8,11 @@
 <table border="1" cellspacing="0" cellpadding="0" >
     <tr>
         <td width="150"> <b>&nbsp;用例名称</b></td>
-        <td colspan="2" width="700">&nbsp;学生列表</td>
+        <td colspan="2" width="700">&nbsp;添加课程</td>
     </tr>
     <tr>
         <td width="150"> <b>&nbsp;参与者</b></td>
-        <td colspan="2" width="700">&nbsp;学生及教师</td>
+        <td colspan="2" width="700">&nbsp;教师</td>
     </tr>
     <tr>
         <td width="150"> <b>&nbsp;前置条件</b></td>
@@ -20,7 +20,7 @@
     </tr>
     <tr>
         <td width="150"> <b>&nbsp;后置条件</b></td>
-        <td colspan="2" width="700">&nbsp;无</td>
+        <td colspan="2" width="700">&nbsp;添加实验</td>
     </tr>
     <tr>
         <td colspan="3" width="200"> <b>&nbsp;主事件流</b></td>
@@ -31,16 +31,24 @@
     </tr>
     <tr>
         <td colspan="2" width="180">
-            <span>&nbsp;1.用户选择查看学生信息；</span>
+            <span>&nbsp;1.教师选择添加课程；</span>
             <br>
             <span>&nbsp;</span>
             <br>
-            <span>&nbsp;3.用户确认查看学生信息，用例结束；</span>
+            <span>&nbsp;3.教师输入需要添加的课程信息；</span>
+            <br>
+            <span>&nbsp;</span>
+            <br>
+            <span>&nbsp;5.教师确认结果，用例结束；</span>
         </td>
         <td width="480">
             <span>&nbsp;</span>
             <br>
-            <span>&nbsp;2.系统获取当前用户信息并返回学生信息；</span>
+            <span>&nbsp;2.系统返回添加信息表；</span>
+            <br>
+            <span>&nbsp;</span>
+            <br>
+            <span>&nbsp;4.系统将信息存至数据库中并反馈添加结果；</span>
             <br>
             <span>&nbsp;</span>
         </td>
@@ -50,17 +58,9 @@
     </tr>
     <tr>
         <td colspan="3" width="200">
-            <span>&nbsp;2a.用户为学生</span>
+            <span>&nbsp;4a.信息添加失败</span>
             <br>
-            <span>&nbsp;&emsp;1.系统返回当前学生所在班级的学生信息</span>
-            <br>
-            <span>&nbsp;2b.用户为教师</span>
-            <br>
-            <span>&nbsp;&emsp;1.系统返回教师所教授班级的学生信息</span>
-            <br>
-            <span>&nbsp;2c.当前用户的信息缺失</span>
-            <br>
-            <span>&nbsp;&emsp;1.提示用户信息缺失并提示用户添加用户信息</span>
+            <span>&nbsp;&emsp;1.提示教师信息添加失败，返回第3步</span>
         </td>
     </tr>
     <tr>
@@ -68,7 +68,7 @@
     </tr>
     <tr>
         <td colspan="3" width="200">
-            <span>&nbsp;1.系统显示学生信息时必须按照当前用户类型进行分类显示。</span>
+            <span>&nbsp;1.教师添加信息后必须验证信息的合法性。</span>
         </td>
     </tr>
 </table>
