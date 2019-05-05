@@ -1,0 +1,50 @@
+# 接口: addUserInfo | [返回](../Markdown/MaintainUserInfo.md)
+用例：用户列表
+
+* 功能：添加用户信息
+* 权限：已登录的管理员
+* API请求地址：接口基本地址/v1/api/addUserInfo
+* 请求方式：POST
+* 请求实例:
+```json
+{
+  "user_id": "001",
+  "type": "manager",
+  "add_type": "student",
+  "data": {
+     "user_id": "001",
+     "student_id": "201610414112",
+     "class_id": "2016104141",
+     "name": "tyh",
+     "github_username": "scdztyh",
+     "update_date": "2019-05-01",
+     "password": "bf2d4040bfe9ce2b6b8a47a75945dad2",
+     "disable": "true",
+     "web_sum": "true"
+  }
+}
+```
+* 请求参数说明：
+
+|  参数名称   |          说明          |
+| :---------: | :--------------------: |
+|   user_id   |         用户id         |
+|    type     |    当前登录用户类型    |
+|  add_type   | 需要添加信息的用户类型 |
+|    data     |     需要添加的信息     |
+
+* 返回实例：
+```json
+{
+  "status": "true",
+  "user_id": "001",
+  "info":""
+}
+```
+* 返回参数说明:
+
+| 参数名称 |             说明             |
+| :------: | :--------------------------: |
+|  status  |           请求状态           |
+| user_id  |         登录用户的id         |
+|   info   | 额外的信息，可以存放错误信息 |

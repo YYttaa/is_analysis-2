@@ -98,7 +98,12 @@
 ## 3.界面设计
 * 界面参照:
 * API接口调用
-    * 接口1:
+    * 接口1:[getTeacherCourse](../interface/GetTeacherCourseInter.md)
+    * 接口2:[getSelectCourseStu](../interface/GetSelectCourseStuInter.md)
+    * 接口3:[getCourseTests](../interface/GetCourseTestsInter.md)
+    * 接口4:[getTestsRules](../interface/GetTestsRulesInter.md)
+    * 接口5:[getStuScore](../interface/GetStuScoreInter.md)
+    * 接口6:[updateStuScore](../interface/UpdateStuScoreInter.md)
     
     
 <br>

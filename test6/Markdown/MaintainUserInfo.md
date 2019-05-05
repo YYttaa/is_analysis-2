@@ -92,7 +92,10 @@
 ## 3.界面设计
 * 界面参照:
 * API接口调用
-    * 接口1:
+    * 接口1:[getAddInfoWay](../interface/GetAddInfoWayInter.md)
+    * 接口2:[getUserType](../interface/GetUserTypeInter.md)
+    * 接口3:[addUserInfo](../interface/AddUserInfoInter.md)
+    * 接口4:[addClass](../interface/AddClassInter.md)
     
     
 <br>

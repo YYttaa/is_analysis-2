@@ -98,7 +98,7 @@
 ## 3.界面设计
 * 界面参照:
 * API接口调用
-    * 接口1:
+    * 接口1:[modifyPassword](../interface/ModifyPasswordInter.md)
     
     
 <br>

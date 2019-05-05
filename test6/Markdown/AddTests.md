@@ -82,7 +82,9 @@
 ## 3.界面设计
 * 界面参照:
 * API接口调用
-    * 接口1:
+    * 接口1:[getTeacherCourse](../interface/GetTeacherCourseInter.md)
+    * 接口2:[addTest](../interface/AddTestInter.md)
+    * 接口3:[addScoreRules](../interface/AddScoreRulesInter.md)
     
     
 <br>
