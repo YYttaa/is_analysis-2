@@ -92,3 +92,24 @@
 
 ## 2.业务流程(顺序图) | [源码](../puml/JudgeScore.puml)
 ![img](../picture/JudgeScoreSe.png)
+
+<br>
+
+## 3.界面设计
+* 界面参照:
+* API接口调用
+    * 接口1:
+    
+    
+<br>
+
+## 4.算法描述
+无
+
+## 5.参照表
+* [Teachers](../Markdown/DataBase.md#teachers教师表)
+* [Course](../Markdown/DataBase.md#course课程表)
+* [Select_course](../Markdown/DataBase.md#select_course学生选课表)
+* [Tests](../Markdown/DataBase.md#Tests实验表)
+* [Score_rules](../Markdown/DataBase.md#score_rules评分细则表)
+* [Test_score](../Markdown/DataBase.md#test_score实验评分表)

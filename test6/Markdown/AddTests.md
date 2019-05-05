@@ -92,6 +92,6 @@
 
 ## 5.参照表
 * [Course](../Markdown/DataBase.md#course课程表)
-* [Teachers](../Markdown/DataBase.md#teachers表教师表)
+* [Teachers](../Markdown/DataBase.md#teachers教师表)
 * [Tests](../Markdown/DataBase.md#Tests实验表)
-* [score_rules](../Markdown/DataBase.md#score_rules评分细则表)
+* [Score_rules](../Markdown/DataBase.md#score_rules评分细则表)

@@ -92,3 +92,21 @@
 
 ## 2.业务流程(顺序图) | [源码](../puml/ModifyUserInfo.puml)
 ![img](../picture/ModifyUserInfoSe.png)
+
+<br>
+
+## 3.界面设计
+* 界面参照:
+* API接口调用
+    * 接口1:
+    
+    
+<br>
+
+## 4.算法描述
+无
+
+## 5.参照表
+* [Students](../Markdown/DataBase.md#students学生表)
+* [Teachers](../Markdown/DataBase.md#teachers教师表)
+* [Manager](../Markdown/DataBase.md#manager管理员表)
