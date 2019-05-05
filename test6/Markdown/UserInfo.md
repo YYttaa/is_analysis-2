@@ -64,4 +64,7 @@
     </tr>
 </table>
 
-[]: ../README.md#6
+<br>
+
+## 2.业务流程(顺序图) | [源码](../puml/UserInfo.puml)
+![img](../picture/UserInfoSe.png)

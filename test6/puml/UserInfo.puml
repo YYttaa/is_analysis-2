@@ -1,0 +1,21 @@
+@startuml
+actor 用户
+activate 用户
+alt 如果用户为学生
+    用户->学生信息:查看当前用户信息
+    activate 学生信息
+    学生信息-->用户:返回当前用户信息
+    deactivate 学生信息
+else 如果用户为教师
+    用户->教师信息:查看当前用户信息
+    activate 教师信息
+    教师信息-->用户:返回当前用户信息
+    deactivate 教师信息
+else 如果用户为管理员
+    用户->管理员信息:查看当前用户信息
+    activate 管理员信息
+    管理员信息-->用户:返回当前用户信息
+    deactivate 管理员信息
+end
+deactivate 用户
+@enduml

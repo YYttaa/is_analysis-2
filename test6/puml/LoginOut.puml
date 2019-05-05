@@ -1,0 +1,9 @@
+@startuml
+actor 用户
+activate 用户
+用户->系统:请求登出
+activate 系统
+系统-->用户:登出成功
+deactivate 系统
+deactivate 用户
+@enduml
