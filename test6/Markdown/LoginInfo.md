@@ -87,4 +87,6 @@
 无
 
 ## 5.参照表
-* [Student](../Markdown/DataBase.md#students表学生表)
+* [Students](../Markdown/DataBase.md#students学生表)
+* [Teachers](../Markdown/DataBase.md#teachers教师表)
+* [Manager](../Markdown/DataBase.md#manager管理员表)

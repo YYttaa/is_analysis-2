@@ -74,3 +74,20 @@
 
 ## 2.业务流程(顺序图) | [源码](../puml/AddCourse.puml)
 ![img](../picture/AddCourseSe.png)
+
+<br>
+
+## 3.界面设计
+* 界面参照:
+* API接口调用
+    * 接口1:
+    
+    
+<br>
+
+## 4.算法描述
+无
+
+## 5.参照表
+* [Course](../Markdown/DataBase.md#course课程表)
+* [Teachers](../Markdown/DataBase.md#teachers教师表)
