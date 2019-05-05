@@ -74,5 +74,5 @@
 
 <br>
 
-## 2.业务流程(顺序图) | [源码](../puml/LoginInfo.puml)
-![img](../picture/LoginInfoSe.png)
+## 2.业务流程(顺序图) | [源码](../puml/AddTests.puml)
+![img](../picture/AddTestsSe.png)

@@ -1,4 +1,5 @@
 @startuml
+title 基于GitHub的实验管理平台--用户信息用例的顺序图
 actor 用户
 activate 用户
 alt 如果用户为学生

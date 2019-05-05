@@ -1,0 +1,16 @@
+@startuml
+title 基于GitHub的实验管理平台--选择课程用例的顺序图
+actor 学生
+activate 学生
+学生->课程信息:查询可选课程信息
+activate 课程信息
+课程信息-->学生:返回可选课程信息
+学生->课程信息:选择课程
+课程信息->选课信息:存储选课信息
+activate 选课信息
+选课信息-->课程信息:存储成功
+deactivate 选课信息
+课程信息-->学生:选课成功
+deactivate 课程信息
+deactivate 学生
+@enduml

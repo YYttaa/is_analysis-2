@@ -90,5 +90,5 @@
 
 <br>
 
-## 2.业务流程(顺序图) | [源码](../puml/LoginInfo.puml)
-![img](../picture/LoginInfoSe.png)
+## 2.业务流程(顺序图) | [源码](../puml/ModifyUserInfo.puml)
+![img](../picture/ModifyUserInfoSe.png)

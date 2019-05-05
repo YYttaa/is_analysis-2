@@ -1,0 +1,24 @@
+@startuml
+title 基于GitHub的实验管理平台--维护用户数据用例的顺序图
+actor 管理员
+actor 系统
+activate 管理员
+管理员->系统:发起维护用户数据请求
+activate 系统
+系统-->管理员:返回可添加信息的方式
+管理员->系统:选择添加数据的方式
+系统-->管理员:返回需要添加的用户类型
+deactivate 系统
+alt 如果管理员选择添加学生
+    管理员->学生信息:添加学生信息
+    activate 学生信息
+    学生信息-->管理员:添加成功
+    deactivate 学生信息
+else 如果管理员选择添加教师
+    管理员->教师信息:添加教师信息
+    activate 教师信息
+    教师信息-->管理员:添加成功
+    deactivate 教师信息
+end
+deactivate 管理员
+@enduml

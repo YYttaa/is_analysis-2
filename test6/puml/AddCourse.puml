@@ -1,0 +1,12 @@
+@startuml
+title 基于GitHub的实验管理平台--添加课程用例的顺序图
+actor 教师
+activate 教师
+教师->课程信息:添加课程信息请求
+activate 课程信息
+课程信息-->教师:返回添加信息表
+教师->课程信息:发送课程信息
+课程信息-->教师:添加成功
+deactivate 课程信息
+deactivate 教师
+@enduml

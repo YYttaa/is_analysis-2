@@ -1,0 +1,26 @@
+@startuml
+title 基于GitHub的实验管理平台--学生列表用例的顺序图
+actor 用户
+actor 系统
+activate 用户
+用户->系统:查看学生信息
+activate 系统
+alt 如果用户为教师
+    系统->教师信息:查询教师信息
+    activate 教师信息
+    教师信息-->系统:返回当前教师信息
+    deactivate 教师信息
+else 如果用户为学生
+     系统->学生信息:查询学生信息
+     activate 学生信息
+     学生信息-->系统:返回当前学生信息
+     deactivate 学生信息
+end
+系统->学生信息:查询符合当前用户权限的学生信息
+activate 学生信息
+学生信息-->系统:返回数据
+deactivate 学生信息
+系统-->用户:返回数据
+deactivate 系统
+deactivate 用户
+@enduml

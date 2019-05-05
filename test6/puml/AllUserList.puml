@@ -1,0 +1,17 @@
+@startuml
+title 基于GitHub的实验管理平台--用户列表用例的顺序图
+actor 管理员
+activate 管理员
+alt 管理员选择查看学生列表
+    管理员->学生信息:查看学生列表
+    activate 学生信息
+    学生信息-->管理员:返回学生列表数据
+    deactivate 学生信息
+else 管理员选择查看教师列表
+    管理员->教师信息:查看教师列表
+    activate 教师信息
+    教师信息-->管理员:返回教师列表数据
+    deactivate 教师信息
+end
+deactivate 管理员
+@enduml

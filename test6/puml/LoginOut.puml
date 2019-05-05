@@ -1,4 +1,5 @@
 @startuml
+title 基于GitHub的实验管理平台--登出用例的顺序图
 actor 用户
 activate 用户
 用户->系统:请求登出

@@ -1,0 +1,29 @@
+@startuml
+title 基于GitHub的实验管理平台--查看成绩用例的顺序图
+actor 学生
+actor 系统
+activate 学生
+学生->系统:查看成绩请求
+activate 系统
+系统->选课信息:查询当前学生选课信息
+activate 选课信息
+选课信息->系统:返回信息
+deactivate 选课信息
+系统-->学生:返回选课信息
+学生->系统:选择需要查看的课程
+系统->实验信息:查询本课程所有的实验信息
+activate 实验信息
+实验信息-->系统:返回信息
+deactivate 实验信息
+系统->评分细则信息:查询每个实验的评分细则信息
+activate 评分细则信息
+评分细则信息-->系统:返回评分细则信息
+deactivate 评分细则信息
+系统->实验评分信息:查询已经评价过的评分信息
+activate 实验评分信息
+实验评分信息-->系统:返回评分信息
+deactivate 实验评分信息
+系统-->学生:返回所选课程的评分信息
+deactivate 系统
+deactivate 学生
+@enduml
