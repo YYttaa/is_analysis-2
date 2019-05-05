@@ -72,3 +72,19 @@
 
 ## 2.业务流程(顺序图) | [源码](../puml/LoginInfo.puml)
 ![img](../picture/LoginInfoSe.png)
+
+<br>
+
+## 3.界面设计
+* 界面参照:
+* API接口调用
+    * 接口1:
+    
+    
+<br>
+
+## 4.算法描述
+无
+
+## 5.参照表
+* [Student](../Markdown/DataBase.md#students)
