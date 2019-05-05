@@ -84,7 +84,7 @@
 <br>
 
 ## 3.界面设计
-* 界面参照:
+* 界面参照:[https://tyh97.github.io/is_analysis_terminal_pages/chackscore.html](https://tyh97.github.io/is_analysis_terminal_pages/chackscore.html)
 * API接口调用
     * 接口1:[getStuScore](../interface/GetStuScoreInter.md)
     * 接口2:[getCourseTests](../interface/GetCourseTestsInter.md)

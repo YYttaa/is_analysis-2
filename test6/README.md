@@ -34,19 +34,19 @@
 * [参见数据库设计](./Markdown/DataBase.md)
 
 ## 6.用例及界面详细设计
-* ["登录"用例](./Markdown/LoginInfo.md)，[界面](./puml/SystemClass.puml)
-* ["登出"用例](./Markdown/LoginOut.md)，[界面](./puml/SystemClass.puml)
-* ["查看用户信息"用例](./Markdown/UserInfo.md)，[界面](./puml/SystemClass.puml)
-* ["修改用户信息"用例](./Markdown/ModifyUserInfo.md)，[界面](./puml/SystemClass.puml)
-* ["修改密码"用例](./Markdown/ModifyPassword.md)，[界面](./puml/SystemClass.puml)
-* ["用户列表"用例](./Markdown/AllUserList.md)，[界面](./puml/SystemClass.puml)
-* ["维护用户数据"用例](./Markdown/MaintainUserInfo.md)，[界面](./puml/SystemClass.puml)
-* ["学生列表"用例](./Markdown/AllStudentList.md)，[界面](./puml/SystemClass.puml)
-* ["添加课程"用例](./Markdown/AddCourse.md)，[界面](./puml/SystemClass.puml)
-* ["设定实验"用例](./Markdown/AddTests.md)，[界面](./puml/SystemClass.puml)
-* ["选择课程"用例](./Markdown/SelectCourse.md)，[界面](./puml/SystemClass.puml)
-* ["评定成绩"用例](./Markdown/JudgeScore.md)，[界面](./puml/SystemClass.puml)
-* ["查看成绩"用例](./Markdown/CheckScore.md)，[界面](./puml/SystemClass.puml)
+* ["登录"用例](./Markdown/LoginInfo.md)，[界面](https://tyh97.github.io/is_analysis_terminal_pages/)
+* ["登出"用例](./Markdown/LoginOut.md)，[界面](https://tyh97.github.io/is_analysis_terminal_pages/top.html)
+* ["查看用户信息"用例](./Markdown/UserInfo.md)，[界面](https://tyh97.github.io/is_analysis_terminal_pages/userinfo.html)
+* ["修改用户信息"用例](./Markdown/ModifyUserInfo.md)，[界面](https://tyh97.github.io/is_analysis_terminal_pages/modifyuserinfo.html)
+* ["修改密码"用例](./Markdown/ModifyPassword.md)，[界面](https://tyh97.github.io/is_analysis_terminal_pages/modifypassword.html)
+* ["用户列表"用例](./Markdown/AllUserList.md)，[界面](https://tyh97.github.io/is_analysis_terminal_pages/studenlist.html)
+* ["维护用户数据"用例](./Markdown/MaintainUserInfo.md)，[界面](https://tyh97.github.io/is_analysis_terminal_pages/addcourse.html)
+* ["学生列表"用例](./Markdown/AllStudentList.md)，[界面](https://tyh97.github.io/is_analysis_terminal_pages/studenlist.html)
+* ["添加课程"用例](./Markdown/AddCourse.md)，[界面](https://tyh97.github.io/is_analysis_terminal_pages/addcourse_1.html)
+* ["设定实验"用例](./Markdown/AddTests.md)，[界面](https://tyh97.github.io/is_analysis_terminal_pages/addtests.html)
+* ["选择课程"用例](./Markdown/SelectCourse.md)，[界面](https://tyh97.github.io/is_analysis_terminal_pages/selectcourse.html)
+* ["评定成绩"用例](./Markdown/JudgeScore.md)，[界面](https://tyh97.github.io/is_analysis_terminal_pages/judgescore.html)
+* ["查看成绩"用例](./Markdown/CheckScore.md)，[界面](https://tyh97.github.io/is_analysis_terminal_pages/chackscore.html)
 
 
 

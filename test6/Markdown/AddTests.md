@@ -80,7 +80,7 @@
 <br>
 
 ## 3.界面设计
-* 界面参照:
+* 界面参照:[https://tyh97.github.io/is_analysis_terminal_pages/addtests.html](https://tyh97.github.io/is_analysis_terminal_pages/addtests.html)
 * API接口调用
     * 接口1:[getTeacherCourse](../interface/GetTeacherCourseInter.md)
     * 接口2:[addTest](../interface/AddTestInter.md)

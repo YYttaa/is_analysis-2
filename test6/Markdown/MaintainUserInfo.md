@@ -90,7 +90,7 @@
 <br>
 
 ## 3.界面设计
-* 界面参照:
+* 界面参照:[https://tyh97.github.io/is_analysis_terminal_pages/addcourse.html](https://tyh97.github.io/is_analysis_terminal_pages/addcourse.html)
 * API接口调用
     * 接口1:[getAddInfoWay](../interface/GetAddInfoWayInter.md)
     * 接口2:[getUserType](../interface/GetUserTypeInter.md)
