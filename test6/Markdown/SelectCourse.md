@@ -1,4 +1,4 @@
-# "选择课程"用例 [返回](../README.md#6)
+# "选择课程"用例 | [返回](../README.md#6)
 
 ## 1.用例规约
 
@@ -17,7 +17,7 @@
     </tr>
     <tr>
         <td width="150"> <b>&nbsp;后置条件</b></td>
-        <td colspan="2" width="700">&nbsp;</td>
+        <td colspan="2" width="700">&nbsp;无</td>
     </tr>
     <tr>
         <td colspan="3" width="200"> <b>&nbsp;主事件流</b></td>

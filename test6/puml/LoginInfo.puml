@@ -1,0 +1,22 @@
+@startuml
+title 基于GitHub的实验管理平台--登录用例的顺序图
+actor 用户
+activate 用户
+alt 如果用户为老师
+    用户->教师信息:登录
+    activate 教师信息
+    教师信息-->用户:登录成功
+    deactivate 教师信息
+else 如果用户为学生
+    用户->学生信息:登录
+    activate 学生信息
+    学生信息-->用户:登录成功
+    deactivate 学生信息
+else 如果用户为管理员
+    用户->管理员信息:登录
+    activate 管理员信息
+    管理员信息-->用户:登录成功
+    deactivate 管理员信息
+end
+deactivate 用户
+@enduml

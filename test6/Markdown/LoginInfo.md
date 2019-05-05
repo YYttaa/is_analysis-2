@@ -1,4 +1,4 @@
-# "登录"用例 [返回](../README.md#6)
+# "登录"用例 | [返回](../README.md#6)
 
 ## 1.用例规约
 
@@ -67,3 +67,7 @@
         </td>
     </tr>
 </table>
+
+
+## 2.业务流程（顺序图） | [源码](../puml/LoginInfo.puml)
+![img](../picture/LoginInfoSe.png)
